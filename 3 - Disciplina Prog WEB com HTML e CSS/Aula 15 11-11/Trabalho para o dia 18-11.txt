@@ -1,0 +1,18 @@
+Simulado para Prova - trabalho para entregar(ultimo trabalho do semestre).
+
+Criar uma página, com assunto a sua escolha, que contenha pelo menos 3 dos itens abaixo(você escolhe 3 dos itens abaixo do bootstrap):
+
+-Carousel
+-NavBar
+-Formulário de Contato(Sem a necessidade de link ou email de envio )
+-Tabela
+-Cores Contextuais
+-Imagens
+
+Este já é um exercício preparatório para Prova de 18/11. Não se preocupem, a prova será bem mais simples.
+
+A prova será um exercício de desenvolvimento de site simples com css/bootstrap  além de perguntas do tipo teste sobre css.
+
+Qualquer dúvida entre em contato por e-mail:lesantos@fho.edu.br
+
+Este exercício pode ser entregue até o dia 18/11.

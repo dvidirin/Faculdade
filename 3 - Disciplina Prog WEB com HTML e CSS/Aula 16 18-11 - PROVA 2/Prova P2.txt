@@ -1,0 +1,30 @@
+Prezados Alunos
+
+Boa noite
+
+Desenvolvimento web é criatividade. A prova de hoje terá tema livre.
+
+Você deverá escolher um tema e montar uma única página sobre este tema.
+
+Sugestão:
+
+Escolha um assunto, tópico ou aula de qualquer disciplina e monte uma página sobre o assunto.
+
+Se não gostou da sugestão, fique livre para escolher um tema qualquer, mas diferente dos trabalhos já entregues.
+
+A página deve conter MINIMAMENTE:
+
+* 1 Formulário(pode ser de contato, sugestão, dúvidas, etc..) - LayOut somente, não precisa estar ligado a nada.
+* Uso de div's para criar colunas ou áreas na página com conteúdos e cores diferentes.
+* Uso de imagem
+* Uso de Menu - com ou sem link's
+
+Deve ser usado css puro OU bootstrap - Fica a sua escolha.
+
+A entrega ficará aberta até as 22:30 e a chamada será feita pela entrega da prova.
+
+Boa prova a todos
+
+OBS: Não farei a parte de questões testes que havia comentado com você.
+
+Luiz

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+   
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <script src="https://kit.fontawesome.com/18f204f47c.js" crossorigin="anonymous"></script>
+    
+    <style>
+        .carousel-control-prev-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+        }
+
+        .carousel-control-next-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+        }
+        
+        .carousel-indicators .active{
+            background-color: #f00;
+        }
+        
+        
+        .form-control:focus {
+            border-color: #db4646;
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(219, 70, 70, 0.5);
+        }
+    </style>
+    
+    <title>SIMULADO PARA PROVA!</title>
+  
+  </head>
+  <body>
+      
+      <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+         
+         <div class="container">
+             <a class="navbar-brand h1 mb-0" href="#">PLAYSTATION 5</a>
+         
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+         
+             <div class="collapse navbar-collapse" id="navbarMenu">
+                 <ul class="navbar-nav mr-auto">
+                     <li class="nav-item">
+                         <a class="nav-link" href="#">Início</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#">Especificações</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#">Novidades</a>
+                     </li>
+                 </ul>
+                 <ul class="navbar-nav ml-auto">
+                     <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="dropNav">Social Links</a>
+                         <div class="dropdown-menu">
+                             <a class="dropdown-item" href="#">Facebook</a>
+                             <a class="dropdown-item" href="#">Instagram</a>
+                             <a class="dropdown-item" href="#">Twitter</a>
+                         </div>
+                     </li>
+                 </ul>
+             </div>
+         </div> 
+      </nav>
+      
+      <div id="carrosselSite" class="carousel slide" data-ride="carousel">
+          
+          <ol class="carousel-indicators">
+              <li data-target="#carrosselSite" data-slide-to="0" class="active"></li>
+              <li data-target="#carrosselSite" data-slide-to="1"></li>
+              <li data-target="#carrosselSite" data-slide-to="2"></li>
+          </ol>
+          
+          <div class="carousel-inner">
+              
+              <div class="carousel-item active">
+                  <img src="imgs/fig1.jpg" class="img-fluid d-block h-50">
+              </div>
+              <div class="carousel-item">
+                  <img src="imgs/fig2.jpg" class="img-fluid d-block h-50">
+              </div>
+              <div class="carousel-item">
+                  <img src="imgs/fig3.jpg" class="img-fluid d-block h-50">
+              </div>
+  
+          </div>
+          
+      </div>
+      
+      <a class="carousel-control-prev" href="#carrosselSite" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carrosselSite" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="sr-only">Próximo</span>
+      </a>
+      
+      <div class="container">
+          <div class="row">
+              <div class="col-12 text-center my-5">
+                  <h1 class="display-3">QUER GANHAR UM PS5? <i class="fas fa-gifts text-danger"></i></h1>
+                  <p><i class="fas fa-pray text-danger"></i> É só preencher o formulário abaixo e rezar para ser sorteado. <i class="fas fa-pray text-danger"></i></p>
+              </div>
+          </div>
+          
+          <div class="row justify-content-center mb-5">
+              <div class="col-sm-12 col-md-10 col-lg-8">
+                  <form>
+                      
+                      <div class="form-row">
+                          <div class="form-group col-sm-6">
+                              <label for="inputNome">Nome</label>
+                              <input type="text" class="form-control" id="inputNome" placeholder="Digite o Primeiro Nome">
+                          </div>
+                          <div class="form-group col-sm-6">
+                              <label for="inputSobrenome">Sobrenome</label>
+                              <input type="text" class="form-control" id="inputSobrenome" placeholder="Digite o Sobrenome">
+                          </div>
+                      </div>
+                      <div class="form-row">
+                          <div class="form-group col-sm-12">
+                              <label for="inputEnd">Endereço</label>
+                              <input type="text" class="form-control" id="inputEnd" placeholder="Digite o Endereço Completo">
+                          </div>
+                      </div>
+                      <div class="form-row">
+                          <div class="form-group col-sm-6">
+                              <label for="inputCidade">Cidade</label>
+                              <input type="text" class="form-control" id="inputCidade" placeholder="Digite a Cidade">
+                          </div>
+                          <div class="form-group col-sm-4">
+                              <label for="inputEst">Estado</label>
+                              <select id="inputEst" class="form-control">
+                                  <option selected>Selecione...</option>
+                                  <option>...</option>
+                                  <option>...</option>
+                                  <option>...</option>
+                              </select>
+                          </div>
+                          <div class="form-group col-sm-2">
+                              <label for="inputCEP">CEP</label>
+                              <input type="text" class="form-control" id="inputCEP">
+                          </div>
+                      </div>
+                      <div class="form-row">
+                          <div class="form-group col-sm-12">
+                              <div class="form-check">
+                                  <label class="form-check-label">
+                                      <input class="form-check-input" type="checkbox"> Desejo receber o resultado por e-mail
+                                  </label>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="form-row">
+                          <div class="col-sm-12">
+                              <button type="submit" class="btn btn-danger">Enviar</button>
+                          </div>
+                      </div> 
+                  </form>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-12 my-5">
+                  <h5 class="display-5 text-danger">Feito por: Daniel Vidiri Neto - RA: 109970</h5>
+              </div>
+          </div>
+      </div>      
+      
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
