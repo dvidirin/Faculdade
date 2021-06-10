@@ -1,0 +1,97 @@
+Não será entregue hoje, solicitarei a entrega mais adiante juntamente com trabalhos anteriores.
+
+1) Como exercício para hoje, responda as perguntas abaixo.
+
+1-O que é CSS?
+Resposta:
+CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Pense  na decoração da sua página. Utilizando o CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos. Também pode criar tabelas, usar variações de layouts, ajustar imagens para suas respectivas telas e assim por diante.
+
+2-Como Criar uma Folha de Estilo?
+Resposta:
+Para criar uma folha de estilos é bem simples. Basta abrir seu editor de códigos e criar um documento novo.
+Depois de criado, salve como estilo.css, mesmo sem ainda ter escrito nada (este .css é o que define um arquivo ser reconhecido pelo navegador como a folha de estilo).
+Assim que for salvo, o editor de texto vai conseguir ler o arquivo com mais facilidade, até mesmo com sugestões de auto complete enquanto digita os códigos da folha de estilo.
+
+3-Cite algumas vantagens no uso CSS.
+A diferença entre um site que implementa CSS e outro que não o usa é gigantesca e notável.
+Você já deve ter visto um site que não carrega completamente ou tem um plano de fundo branco com texto azul e preto. Isso significa que a parte CSS do site não foi carregada corretamente ou não existe.
+E é assim que um site somente com HTML se parece. Acredito que você vai concordar comigo de que isso não é muito bonito, certo?
+Antes de usar CSS, toda a estilização tinha que ser incluída na marcação HTML. Isso significa que você deveria descrever separadamente todo o plano de fundo, as cores das fontes, os alinhamentos, etc.
+Mas o CSS permite que você estilize tudo em um arquivo diferente, criando assim o estilo separadamente. E, mais tarde, faça integração do arquivo CSS na parte superior da marcação HTML. Isso mantém a marcação HTML limpa e fácil de manter.
+Resumindo, com o CSS você não precisa mais escrever repetidamente como os elementos individuais se parecem. Isso economiza tempo, encurta o código e diminui a chance de erros.
+O CSS permite que você tenha vários estilos em uma página HTML, tornando as possibilidades de personalização quase infinitas. Hoje em dia, isso está se tornando mais uma necessidade do que um simples recurso.
+
+4-Explique o funcionamento do CSS.
+O CSS usa uma sintaxe simples baseada em inglês com um conjunto de regras que o governam. Como mencionamos anteriormente, o HTML nunca teve a intenção de usar elementos de estilo, apenas a marcação da página. Foi criado para descrever apenas o conteúdo. Por exemplo: <p>Este é um parágrafo.</p>.
+Mas como você estiliza o parágrafo? A estrutura da sintaxe CSS é bem simples. Tem um seletor e um bloco de declaração. Você seleciona um elemento e depois declara o que deseja fazer com ele. Bastante simples, certo?
+Mas tem algumas regras que você precisa saber. Isso também é simples, não se preocupe.
+O seletor aponta para o elemento HTML que você deseja estilizar. O bloco de declaração contém uma ou mais declarações separadas por ponto e vírgula.
+Cada declaração inclui um nome de propriedade CSS e um valor, separados por dois pontos. Uma declaração CSS sempre termina com um ponto-e-vírgula e os blocos de declaração são cercados por chaves.
+
+5-Explique Estilos CSS Interno, Externo e Inline.
+Vamos começar com o estilo interno. Estilos CSS feitos desta forma são carregados cada vez que um site é atualizado, o que pode aumentar o tempo de carregamento. Além disso, você não poderá usar o mesmo estilo CSS em várias páginas, pois está contido em uma única página. Mas a vantagem disso é que ter tudo em uma página facilita o compartilhamento do modelo para uma visualização.
+O método externo pode ser o mais conveniente. Tudo é feito externamente em um arquivo .css. Isso significa que você pode fazer todo o estilo em um arquivo separado e aplicar o CSS a qualquer página desejada. O estilo externo também pode melhorar o tempo de carregamento.
+Por fim, tem também o estilo Inline do CSS. Inline trabalha com elementos específicos que possuem a tag <style>. Cada componente deve ser estilizado, por isso talvez não seja o melhor ou o mais rápido para lidar com CSS. Mas pode ser útil, por exemplo, para alterar um único elemento, visualizar rapidamente as alterações ou se não tiver acesso aos arquivos CSS.
+
+6-Como colocar Comentário em css?
+A sintaxe de um comentário CSS é composta de uma barra (/) seguida de dois asteriscos (*) e por fim coloca-se uma outra barra para se encerrar o comentário. O texto do comentário deve ser colocado entre os asteriscos.
+
+7-Cite as novidades do css3.
+O CSS3 traz muitas propriedades novas.
+
+As principais novidades são:
+
+Bordas
+
+border-color
+border-image
+border-radius
+box-shadow
+
+Fundos
+
+background-origin
+background-clip
+background-size
+fazer camadas com múltiplas imagens de fundo
+
+Cor
+
+cores HSL
+cores HSLA
+cores RGBA
+Opacidade
+
+Texto
+
+text-shadow
+text-overflow
+Ruptura de palavras longas
+
+Interface
+
+box-sizing
+resize
+outline
+nav-top, nav-right, nav-bottom, nav-left
+
+Seletores
+
+Seletores por atributos
+
+Modelo de caixa básico
+
+overflow-x, overflow-y
+
+Outros
+
+media queries
+criação de múltiplas colunas de texto
+propriedades orientadas a discurso ou leitura automática de páginas web
+Web Fonts
+
+Chega de sofrer no photoshop para fazer coisas simples como rotacionar uma foto, o agora já CSS faz sozinho.
+
+
+2) No exercício da nossa aula 3, solicitei que criassem um curriculum pessoal.
+Neste exercício, gostaria que vocês modificassem este curriculum utilizando css no modo externo.

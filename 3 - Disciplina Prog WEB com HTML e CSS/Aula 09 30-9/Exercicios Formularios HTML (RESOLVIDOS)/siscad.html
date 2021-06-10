@@ -1,0 +1,53 @@
+<!-- DANIEL VIDIRI NETO - 109970 - S.I. TURMA A S2 2020 -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercício Formulário 2</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+	    <p style="background-color: rgb(204, 153, 0); font-family: sans-serif; font-weight: bold">SISTEMA DE GESTÃO ACADÊMICA</p>
+		<h4 style="font-family: sans-serif"> MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO </h4>
+		<form action="" method="POST">
+            <strong style="font-family: sans-serif">Login</strong>
+			<input style="position: absolute; left: 120px; width: 250px;" type="text" name="login" size="75"><br><br>
+            <strong style="font-family: sans-serif">Senha</strong>
+	        <input style="position: absolute; left: 120px; width: 250px;" type="password" name="senha" size="75"><br><br>
+            <strong style="font-family: sans-serif">Status</strong>
+    		<select style="position: absolute; left: 120px;" name="status">
+				<option value="inativo">Inativo</option>
+				<option value="ativo">Ativo</option>
+            </select><br><br>
+            <strong style="font-family: sans-serif">Tipo</strong>
+            <input style="position: absolute; left: 120px;" type="radio" name="tipo" value="tecnico"> 
+            <label style="position: absolute; left: 145px; font-family: sans-serif" for="tecnico">Técnico</label>
+            <input style="position: absolute; left: 220px;" type="radio" name="tipo" value="professor">
+            <label style="position: absolute; left: 245px; font-family: sans-serif" for="professor">Professor</label>
+            <input style="position: absolute; left: 320px;" type="radio" name="tipo" value="aluno">
+            <label style="position: absolute; left: 345px; font-family: sans-serif" for="aluno">Aluno</label><br><br>
+            <strong style="font-family: sans-serif">Data Criação</strong>
+	        <input style="position: absolute; left: 120px;" type="date" name="data"><br><br>
+            <strong style="font-family: sans-serif">Perfil</strong>
+            <input style="position: absolute; left: 120px;" type="radio" name="perfil" value="convidado">
+            <label style="position: absolute; left: 145px; font-family: sans-serif" for="convidado">Convidado</label>
+            <input style="position: absolute; left: 220px;" type="radio" name="perfil" value="administrador">
+            <label style="position: absolute; left: 245px; font-family: sans-serif" for="administrador">Administrador</label><br><br>
+            <strong style="font-family: sans-serif">Observações</strong>
+            <textarea style="position: absolute; left: 120px;" name="observação" rows="10" cols="50"></textarea><br><br>
+            <br><br><br><br><br><br><br><br>
+            <strong style="font-family: sans-serif">Módulos</strong>
+            <input style="position: absolute; left: 120px;" type="checkbox" name="compras" value="modulo_compras">
+            <label style="position: absolute; left: 145px; font-family: sans-serif" for="compras">Compras</label>
+            <input style="position: absolute; left: 220px;" type="checkbox" name="biblioteca" value="modulo_biblioteca">
+            <label style="position: absolute; left: 245px; font-family: sans-serif" for="biblioteca">Biblioteca</label>
+            <input style="position: absolute; left: 320px;" type="checkbox" name="academico" value="modulo_academico">
+            <label style="position: absolute; left: 345px; font-family: sans-serif" for="academico">Acadêmico</label><br><br>
+            <input style="position: absolute; left: 120px;" type="checkbox" name="documentacao" value="modulo_documentacao">
+            <label style="position: absolute; left: 145px; font-family: sans-serif" for="documentacao">Documentação</label>
+            <input style="position: absolute; left: 270px;" type="checkbox" name="rh" value="modulo_rh">
+            <label style="position: absolute; left: 295px; font-family: sans-serif" for="rh">Recursos Humanos</label><br><br>
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Excluir">
+        </form>
+	</body>
+</html>

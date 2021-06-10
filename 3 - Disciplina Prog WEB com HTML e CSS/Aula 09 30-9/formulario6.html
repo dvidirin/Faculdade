@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aula5</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+			<h1> Exemplo de Formulário </h1>
+			<form action="" method="POST">
+					<fieldset>
+						<legend> Identificação: </legend>
+						Nome: <br>
+						<input type="text" name="nome" placeholder="Primeiro nome.."> <br>
+						Sobrenome: <br>
+						<input type="text" name="sobrenome" placeholder="Último nome.."> <br> <br>
+						Gênero: <br>
+						<input type="radio" name="gender" value="masculino" checked> Masculino
+						<input type="radio" name="gender" value="feminino"> Feminino
+						<input type="radio" name="gender" value="outro"> Outro  <br>
+						Doador: <br>
+						<input type="checkbox" name="sangue" value="doador_sangue" checked> Sangue<br>
+						<input type="checkbox" name="orgao" value="doador_orgao"> Orgãos<br>
+					</fieldset>
+					<fieldset>
+						<legend> Escolaridade: </legend>
+						<select name="escolaridade">
+							<option value="fundamental">Ensino Fundamental</option>
+							<option value="medio">Ensino Médio</option>
+							<option value="superior">Superior</option>
+							<option value="pos">Pós-Graduação</option>
+						</select>
+					</fieldset>
+					<fieldset>
+						<legend> Informações da Conta: </legend>
+							Email:<br>
+							<input type="email" name="email" placeholder="exemplo@exemplo.com"><br>
+							Senha:<br>
+							<input type="password" name="psw"> <br> <br>
+
+							Notificações: <br>
+							<input type="checkbox" name="sim_email" value="Email" checked> Email<br>
+							<input type="checkbox" name="sim_cel" value="Cel" checked> Celular<br>
+
+					</fieldset>
+					<br>
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Limpar Dados">
+				</form>
+	</body>
+</html>
+<!---Pesquise na página https://www.w3schools.com/html/default.asp --->
+<!---O que são os atributos type= "submit" e type="reset"

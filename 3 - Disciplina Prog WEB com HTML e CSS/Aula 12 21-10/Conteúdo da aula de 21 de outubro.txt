@@ -1,0 +1,14 @@
+1) Aula destinada ao término dos exercícios das aulas 9, 10 e 11.
+
+2) Exercício(abaixo) para entrega nas próximas aulas em 28/10, juntamente com os anteriores.
+
+Criar uma página html com css, seguindo a descrição abaixo:
+
+a. Procure a sinopse dos 5 últimos filmes que vc assistiu (título h1 e texto p).
+b. Crie um ID no css chamado “supertop” que pinta as letras de azul e itálico. Coloque no
+título e parágrafo do filme que vc mais gostou.
+c. Crie um ID no css chamado “muitoruim” que pinta as letras de vermelho e negrito. Coloque
+no título e parágrafo do filme que vc menos gostou.
+d. Crie uma classe no css chamada “ficção”que pinta o fundo de amarelo e aumenta o
+tamanho da fonte em 200% e coloque em tudo que se referir a ficção.
+e. Utilize o item CSS Borders como desejar, mas utilize.

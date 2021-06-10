@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Layout</title>
+    <style>
+      body {
+        background-color: grey;
+      }
+      div{
+        height: 50px;
+        width: 50px;
+        color:white;
+      }
+      #estatica{
+        position:static;
+        background-color: red;
+        <!-- Não é afetado por top, bottom, left ou right, segue o fluxo comum da página>
+      }
+      #relativa{
+        position:relative;
+        background-color: green;
+        top:10px;
+        left:100px;
+        <!-- É posicionado relativo à sua posição em que aparece na página, o elemento passa a aceitar as propriedades Top, Bottom, Left e Right>
+      }
+      #fixa{
+        position:fixed;
+        background-color: blue;
+        top:10px;
+        left:150px;
+        <!-- Fica na posição imposta e acompanha o rolamento>
+      }
+      #absoluta{
+        position:absolute;
+        background-color: purple;
+        top:10px;
+        left:200px;
+        <!-- Fica na posição imposta e não acompanha o rolamento>
+      }
+      #grudada{
+        position:sticky;
+        background-color: orange;
+        top:10px;
+        left:250px;
+        <!-- Fica fixo até o rolamento passar por ele>
+      }
+    </style>
+</head>
+<body>
+    texto 1 texto 1 texto 1 texto 1 texto 1 texto 1 texto 1 texto 1 texto 1<br>
+    texto 1 texto 1 texto 1 texto 1 texto 1 texto 1 texto 1 texto 1 texto 1<br>
+    <div id=estatica>
+      <p> static </p>
+    </div>
+    texto 2 texto 2 texto 2 texto 2 texto 2 texto 2 texto 2 texto 2 texto 2<br>
+    texto 2 texto 2 texto 2 texto 2 texto 2 texto 2 texto 2 texto 2 texto 2<br>
+    <div id=relativa>
+      <p> relative </p>
+    </div>
+    texto 3 texto 3 texto 3 texto 3 texto 3 texto 3 texto 3 texto 3 texto 3<br>
+    texto 3 texto 3 texto 3 texto 3 texto 3 texto 3 texto 3 texto 3 texto 3<br>
+    <div id=fixa>
+      <p> fixed </p>
+    </div>
+
+    <div id=absoluta>
+      <p> absolute </p>
+    </div>
+
+    <div id=grudada>
+      <p> sticky </p>
+    </div>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+    texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4 texto 4<br>
+</body>
+</html>

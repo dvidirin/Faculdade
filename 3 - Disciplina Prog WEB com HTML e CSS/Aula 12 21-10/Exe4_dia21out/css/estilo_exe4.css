@@ -1,0 +1,98 @@
+.principal{
+    width: 100%;
+    height: 100%;
+}
+
+.first{
+    position: relative;
+    height: 770px;
+    width: 350px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 5px;
+    margin-top: 7%;
+    border: 2px solid rgb(47,49,48);
+    border-radius: 8px;
+}
+
+.second{
+    position: relative;
+    height: 770px;
+    width: 350px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 7%;
+    float: left;
+    border: 2px solid rgb(239,160,47);
+    border-radius: 8px;
+}
+
+.third.ficcao{
+    position: relative;
+    height: 1110px;
+    width: 350px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 7%;
+    background-color: darkgoldenrod;
+    font-size: 200%;
+    border: 2px solid rgb(9,166,209);
+    border-radius: 8px;
+}
+
+.fourth{
+    position: relative;
+    height: 770px;
+    width: 350px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 7%;
+    border: 2px solid rgb(99,4,8);
+    border-radius: 8px;
+}
+
+.fifth.ficcao{
+    position: relative;
+    height: 1495px;
+    width: 360px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 7%;
+    background-color: darkgoldenrod;
+    font-size: 200%;
+    border: 2px solid rgb(66,150,135);
+    border-radius: 8px;
+}
+
+h1{
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    padding: 2px;
+}
+
+p{
+    font-family: 'Delius', cursive;
+    text-align: justify;
+    padding: 8px;
+}
+
+img {
+    width: 190px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#supertop {
+    color: cornflowerblue;
+    font-style: italic;
+}
+
+#muitoruim {
+    color: brown;
+    font-weight: bolder;
+}

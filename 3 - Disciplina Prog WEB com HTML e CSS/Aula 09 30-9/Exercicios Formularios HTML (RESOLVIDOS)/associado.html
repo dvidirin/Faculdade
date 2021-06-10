@@ -1,0 +1,188 @@
+<!-- DANIEL VIDIRI NETO - 109970 - S.I. TURMA A S2 2020 -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercício Formulário 3</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+        <table width=700 border=0 cellspacing=2 cellpadding=2>
+            <tr>
+                <td width="550" style="font-family: arial; background-color:rgb(102, 204, 255);"><strong>Não é associado? Faça seu cadastro</strong></td>
+                <td width="250" style="background-color:rgb(0, 1, 101);"></td>
+            </tr>
+        </table>
+        <table width=400 border=0 cellspacing=2 cellpadding=2>
+		    <form action="" method="POST">
+                <tr>
+                    <td colspan="1" style="font-family: sans-serif"><strong>Nome</strong></td>
+                    <td colspan="3"><input type="text" name="nome" size="80" style="height:20px"></td>
+                </tr>
+                <tr>
+                    <td colspan="1" style="font-family: sans-serif"><strong>Nome Completo</strong></td>
+                    <td colspan="3"><input type="text" name="ncompleto" size="80" style="height:20px"></td>
+                </tr>
+                <tr>
+                    <td colspan="1" style="font-family: sans-serif"><strong>CPF</strong></td>
+                    <td colspan="3"><input type="text" name="cpf" size="80" style="height:20px"></td>
+                </tr>
+                <tr>
+                    <td colspan="1" style="font-family: sans-serif"><strong>E-mail</strong></td>
+                    <td colspan="3"><input type="email" name="email" size="80" style="height:20px"></td>
+                </tr>
+                <tr>
+                    <td colspan="1" style="font-family: sans-serif"><strong>Website</strong></td>
+                    <td colspan="3"><input type="url" name="site" size="80" style="height:20px"></td>
+                </tr>
+                <tr>
+                    <td colspan="1" style="font-family: sans-serif"><strong>Endereço</strong></td>
+                    <td colspan="3"><input type="text" name="endereco" size="80" style="height:20px"></td>
+                </tr>
+                <tr>
+                    <td style="font-family: sans-serif"><strong>Bairro</strong></td>
+                    <td><input type="text" name="bairro" size="32" style="height:20px"></td>
+                    <td style="font-family: sans-serif"><strong>Cidade</strong></td>
+                    <td><input type="text" name="cidade" size="32" style="height:20px"></td>
+                </tr>
+                <tr>
+                    <td style="font-family: sans-serif"><strong>Cep</strong></td>
+                    <td><input type="text" name="cep" size="32" style="height:20px"></td>
+                    <td style="font-family: sans-serif"><strong>UF</strong></td>
+                    <td><select style="height:25px" name="uf">
+				            <option value="AC">Acre</option>
+				            <option value="AL">Alagoas</option>
+				            <option value="AP">Amapá</option>
+				            <option value="AM">Amazonas</option>
+				            <option value="BA">Bahia</option>
+				            <option value="CE">Ceará</option>
+				            <option value="DF">Distrito Federal</option>
+				            <option value="ES">Espírito Santo</option>
+				            <option value="GO">Goiás</option>
+				            <option value="MA">Maranhão</option>
+				            <option value="MT">Mato Grosso</option>
+				            <option value="MS">Mato Grosso do Sul</option>
+				            <option value="MG">Minas Gerais</option>
+				            <option value="PA">Pará</option>
+				            <option value="PB">Paraíba</option>
+				            <option value="PR">Paraná</option>
+				            <option value="PE">Pernambuco</option>
+				            <option value="PI">Piauí</option>
+				            <option value="RJ">Rio de Janeiro</option>
+				            <option value="RN">Rio Grande do Norte</option>
+				            <option value="RS">Rio Grande do Sul</option>
+				            <option value="RO">Rondônia</option>
+				            <option value="RR">Roraima</option>
+				            <option value="SC">Santa Catarina</option>
+				            <option value="SP">São Paulo</option>
+				            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-family: sans-serif"><strong>Telefone</strong></td>
+                    <td><input type="tel" name="telefone" size="32" style="height:20px"></td>
+                    <td style="font-family: sans-serif"><strong>Fax</strong></td>
+                    <td><input type="tel" name="fax" size="32" style="height:20px"></td>
+                </tr>
+                <tr>
+                    <td style="font-family: sans-serif"><strong>Data Nascimento</strong></td>
+                    <td><input type="date" name="bairro" size="30" style="height:25px"></td>
+                    <td style="font-family: sans-serif"><strong>Sexo</strong></td>
+                    <td><input type="radio" name="sexo" value="masculino">
+                        <label style="font-family: sans-serif" for="sexo">M</label>
+                        <input type="radio" name="sexo" value="feminino">
+                        <label style="font-family: sans-serif" for="sexo">F</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-family: sans-serif"><strong>Celular</strong></td>
+                    <td><input type="tel" name="celular" size="32" style="height:20px"></td>
+                    <td style="font-family: sans-serif"><strong>Est.Civil</strong></td>
+                    <td><select style="height:25px" name="civil">
+				            <option value="solteiro">Solteiro(a)</option>
+				            <option value="casado">Casado(a)</option>
+				            <option value="viuvo">Viúvo(a)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-family: sans-serif"><strong>Login</strong></td>
+                    <td><input type="text" name="login" size="32" style="height:20px"></td>
+                    <td style="font-family: sans-serif"><strong>Senha</strong></td>
+                    <td><input type="password" name="senha" size="32" style="height:20px"></td>
+                </tr>
+                <tr>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="font-family: sans-serif"><strong>Deseja receber informações sobre os seguintes assuntos abaixo:</strong></td>
+                </tr>
+                <tr>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="checkbox" name="tec" value="assunto_tec">
+                        <label style="font-family: sans-serif" for="tec"><strong>Tecnologia</strong></label>
+                        <input type="checkbox" name="esp" value="assunto_esp">
+                        <label style="font-family: sans-serif" for="esp"><strong>Esportes</strong></label>
+                        <input type="checkbox" name="auto" value="assunto_auto">
+                        <label style="font-family: sans-serif" for="auto"><strong>Automóveis</strong></label>
+                        <input type="checkbox" name="cul" value="assunto_cul">
+                        <label style="font-family: sans-serif" for="cul"><strong>Culinária</strong></label>
+                        <input type="checkbox" name="poli" value="assunto_poli">
+                        <label style="font-family: sans-serif" for="poli"><strong>Política</strong></label>
+                        <input type="checkbox" name="pol" value="assunto_pol">
+                        <label style="font-family: sans-serif" for="pol"><strong>Policial</strong></label>
+                        <input type="checkbox" name="tem" value="assunto_tem">
+                        <label style="font-family: sans-serif" for="tem"><strong>Tempo</strong></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="checkbox" name="cult" value="assunto_cult">
+                        <label style="font-family: sans-serif" for="cult"><strong>Cultura</strong></label>
+                        <input type="checkbox" name="eco" value="assunto_eco">
+                        <label style="font-family: sans-serif" for="eco"><strong>Economia</strong></label>
+                        <input type="checkbox" name="jogo" value="assunto_jogo">
+                        <label style="font-family: sans-serif" for="jogo"><strong>Jogos</strong></label>
+                        <input type="checkbox" name="edu" value="assunto_edu">
+                        <label style="font-family: sans-serif" for="edu"><strong>Educação</strong></label>
+                        <input type="checkbox" name="via" value="assunto_via">
+                        <label style="font-family: sans-serif" for="via"><strong>Viagem</strong></label>
+                        <input type="checkbox" name="emp" value="assunto_emp">
+                        <label style="font-family: sans-serif" for="emp"><strong>Empregos</strong></label>
+                        <input type="checkbox" name="moda" value="assunto_moda">
+                        <label style="font-family: sans-serif" for="moda"><strong>Moda e Estilo</strong></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="checkbox" name="concordo" value="concordo">
+                        <label style="font-family: sans-serif" for="concordo"><strong>Li as regras de cadastro e autorizo a criação do usuário</strong></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><input type="submit" value="Cadastrar">
+                        <input type="reset" value="Retornar"></td>
+                </tr>
+            </form>
+        </table>
+	</body>
+</html>

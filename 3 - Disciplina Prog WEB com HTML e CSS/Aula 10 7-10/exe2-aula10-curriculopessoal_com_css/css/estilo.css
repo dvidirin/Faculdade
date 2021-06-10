@@ -1,0 +1,67 @@
+
+body {
+    background-color: black;
+}
+h1 {
+    font-size: 70px;
+    font-family: 'Sofia';
+    color: snow;
+    text-align: center;
+}
+h2 {
+    font-size: 60px;
+    font-family: 'Sofia';
+    color: snow;
+    text-align: center;
+}
+h3 {
+    font-style: italic;
+    font-family: 'Sofia';
+    text-align: center;
+    color: snow;
+}
+hr {
+    border: 8px solid;
+    border-color: #5e9d5e #060 #d1e3d1;
+    height: 0px;
+}
+.aga {
+    width:90%;
+    border-width:0; 
+    border-top:2px dotted #000; 
+    height:10px;
+}
+
+div {}
+.hobbies {
+    background-color: cornflowerblue;
+}
+
+p {}
+.para1 {
+    font-size: 50px;
+    font-family: 'Aleo';
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+}
+
+.para2 {
+    font-size: 30px;
+    font-family: 'Belgrano';
+    text-align: justify;
+    font-weight: bold;
+    color: burlywood;
+    text-decoration: underline;
+}
+
+ul {
+    font-size: 30px;
+    font-family: 'Belgrano';
+    text-align: justify;
+    color: burlywood;
+}
+
+a {
+    color: blue;
+}

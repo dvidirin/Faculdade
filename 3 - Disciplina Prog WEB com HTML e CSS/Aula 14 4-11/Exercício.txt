@@ -1,0 +1,18 @@
+Pessoal
+
+Já fiz a chamada as 20:30 - quem estava logado no meet esta presente.
+
+Trabalho para hoje(importante ter visto e praticado os vídeos sobre bootstrap para estar familiarizado com o mesmo):
+
+Pesquisar sobre e fazer um exemplo para cada um dos itens abaixo:
+1-Carousel de imagens
+2-Formulário
+3-NavBar (barra de menu)
+
+* Importante saber onde buscar informações sobre os assuntos e temas.
+
+Não será solicitada a entrega destas práticas, mas os itens podem estar presente no exercício da aula 15,  próximo trabalho de preparação para prova.
+
+Quais quer dúvidas sobre este conteúdo ou sobre bootstrap, enviar por e-mail(lesantos@fho.edu.br)
+
+OBS: A prova do dia 18 terá perguntas do tipo teste e desenvolvimento de site usando css/bootstrap. Será simples, não se preocupem.

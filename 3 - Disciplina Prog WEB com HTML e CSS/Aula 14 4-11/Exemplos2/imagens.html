@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Figuras</title>
+    <!--style>
+      .table tbody tr:nth-child(even) td,
+      .table thead tr:nth-child(odd) th {
+          background-color: grey;
+        }
+   </style-->
+  </head>
+  <body>
+    <h2> Diferentes formatos de Imagens </h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col bg-primary">
+          <img src="flor.jpg" alt="paphiopedilum barbaatum va. nigritum">
+          <p> sem formato </p>
+        </div>
+        <div class="col bg-info">
+          <img src="flor.jpg" class="rounded" alt="paphiopedilum barbaatum va. nigritum"> <!--img-fluid-->
+          <p> .rounded: arredonda as bordas </p>
+        </div>
+        <div class="col bg-success">
+          <img src="flor.jpg" class="rounded-circle" alt="paphiopedilum barbaatum va. nigritum"><!--img-fluid-->
+          <p> .rounded-circle: circular. mantém o formato da imagem </p>
+        </div>
+        <div class="col bg-warning">
+          <img src="flor.jpg" class="img-thumbnail" alt="paphiopedilum barbaatum va. nigritum">
+          <p> .img-thumbnail: coloca uma leve borda e o tamanho é responsivo </p>
+        </div>
+      </div>
+      <h2> Alinhamento </h2>
+      <div class="row">
+        <div class="col bg-danger">
+          <img src="flor.jpg" alt="paphiopedilum barbaatum va. nigritum"><!--img-fluid-->
+          <p> sem alinhamento </p>
+        </div>
+        <div class="col bg-primary">
+          <img src="flor.jpg" class="float-left" alt="paphiopedilum barbaatum va. nigritum"><!--img-fluid-->
+          <p> .float-left: alinha flutuando a esquerda </p>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col bg-success">
+            <img src="flor.jpg" class="mx-auto d-block" alt="paphiopedilum barbaatum va. nigritum"><!--img-fluid-->
+            <p> .mx-auto: faz a margem ficar automática</p>
+            <p> .d-block: mostra o display em bloco</p>
+            <p> juntos centralizam a imagem </p>
+          </div>
+          <div class="col bg-info">
+            <img src="flor.jpg" class="float-right" alt="paphiopedilum barbaatum va. nigritum"><!--img-fluid-->
+            <p> .float-left: alinha flutuando a direita </p>
+          </div>
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+header{
+    background-color: rgb(2,255,0);
+    height: 100px;
+    vertical-align: middle;
+    display: table;
+    width: 100%;
+    padding: 0px;
+}
+
+section{
+    background-color: rgb(1,255,255);
+    display: table;
+    height: 785px;
+    padding: 0px;
+    width: 85%;
+    margin-left: auto;
+}
+
+aside{
+    background-color: rgb(1,101,255);
+    height: 785px;
+    width: 15%;
+    float: left;
+    display: table;
+}
+
+footer{  
+    background-color: rgb(2,255,0);
+    display: table;
+    width: 100%;
+    padding: 0px;
+    clear: both;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+}

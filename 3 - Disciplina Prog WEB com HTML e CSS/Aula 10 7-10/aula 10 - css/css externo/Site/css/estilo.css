@@ -1,0 +1,15 @@
+
+h1 {
+     font-size: 60px;
+     font-family: monospace;
+     color: darkslateblue;
+     background-color:darkred;
+   }
+h2 {
+     font-size: 40px;
+     font-family: monospace;
+     color: darkslateblue;
+   }
+h3 {
+     font-style: italic;
+   }

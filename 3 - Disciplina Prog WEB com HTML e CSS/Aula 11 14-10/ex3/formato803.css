@@ -1,0 +1,89 @@
+header{
+  background-color: yellow;
+  height: 100px;
+}
+
+body {
+  background-color: white;
+  background-image: linear-gradient(135deg, blue, red);
+}
+
+nav{
+  text-align: center;
+}
+
+aside{
+  background-color: green;
+  height: 400px;
+  width: 15%;
+  float:left;
+}
+
+section{
+  background-color: blue;
+  color: white;
+  height: 200px;
+  width: 500px;
+}
+
+footer{
+  background-color: purple;
+  height: 50px;
+  clear: both;
+}
+
+
+.menu{
+  margin: 0;
+  padding: 0;
+  background-color: #5f5f5f;
+}
+
+.leftMenu{
+  margin: 0;
+  padding:0;
+}
+
+.menu a{
+  padding: 16px;
+  color: white;
+  display: inline-block;
+}
+
+.menu li{
+  display: inline;
+}
+
+
+.menu a:hover{
+  background-color: #000000;
+}
+
+
+.leftMenu a{
+  color: black;
+  padding: 16px 8px;
+  display: block;
+}
+
+.leftMenu a:hover{
+  background-color: gray;
+}
+
+
+
+#direita{
+  margin-left:auto;
+  text-align:left;
+}
+
+#centro{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+#esquerda{
+  margin-right:auto;
+  text-align:right;
+}
