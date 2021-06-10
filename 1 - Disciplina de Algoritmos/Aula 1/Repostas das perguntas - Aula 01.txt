@@ -1,0 +1,84 @@
+Exercício 01) O professor Ivan precisa que você desenvolva um algoritmo para mostrar o resultado da soma de três números que ele vai informar.
+
+-Ler o primeiro número informado pelo Prof. Ivan
+-Armazenar o valor informado na variável N1
+-Ler o segundo número informado pelo Prof. Ivan
+-Armazenar o valor informado na variável N2
+-Ler o terceiro número informado pelo Prof. Ivan
+-Armazenar o valor informado na variável N3
+-Fazer a soma dos três valores informados pelo Prof. Ivan, utilizando a fórmula: N1 + N2 + N3
+-Armazenar o resultado da fórmula na variável S
+-Exibir o valor da variável S para o Prof. Ivan
+
+Exercício 02) Desenvolva um algoritmo para fazer um sanduíche.
+
+-Olhar na geladeira e no armário para ver se tem todos os ingredientes disponíveis para o sanduíche
+-Se estiver faltando ingredientes
+	-Sair para comprar
+-Se tiver todos os ingredientes
+	-Tirar o hamburguer do freezer
+	-Pegar uma frigideira do armário
+	-Colocar a frigideira em uma boca do fogão
+	-Acender a boca do fogão
+	-Colocar óleo e temperos na frigideira
+	-Colocar o hamburguer na frigideira
+	-Esperar o hamburguer fritar, virando ele na frigideira e não deixar queimar
+	-Apagar o fogo quando acabar de fritar o hamburguer
+	-Pegar um pão
+	-Pegar uma faca na gaveta do armário
+	-Com a faca, cortar o pão ao meio
+	-Lavar o alface e tirar uma folha
+	-Colocar uma folha de alface no pão aberto
+	-Pegar o tomate
+	-Pegar uma faca
+	-Com a faca corte uma rodela do tomate
+	-Coloque a rodela de tomate no pão aberto
+	-Tirar os tubos de Ketchup e Mostarda da geladeira
+	-Colocar Ketchup e Mostarda no pão aberto
+	-Tirar o hamburguer da frigideira
+	-Colocar o hamburguer no pão aberto
+	-Fechar o pão com a outra metade que foi cortada
+
+Exercício 03) Desenvolva um algoritmo para realizar saque de dinheiro em banco 24 horas.
+
+1-tirar o cartão da carteira
+2-com o cartão em mãos, inserir no caixa eletrônico
+\*após a leitura do cartão, o caixa eletrônico irá solicitar que o cartão seja retirado*/
+3-retirar o cartão do caixa eletrônico
+\*após retirar o cartão, o caixa eletrônico irá solicitar a leitura da digital*/
+4-colocar o dedo no leitor de digital
+5-após a conclusão da leitura da digital, retirar o dedo do leitor
+6-se a digital não funcionar, ir para o passo 7
+	\*o caixa eletrônico irá solictar uma senha*/
+	7-digitar a senha
+	8-apertar o botão confirmar
+	9-ir para o passo 11
+10-se a digital funcionar, continuar no passo 11
+	\*o caixa eletrônico irá mostrar os menus com as operações disponíveis*/
+	\*para saber se tem dinheiro disponível para saque*/
+	11-selecionar a opção consultar saldo
+	\*o caixa eletrônico irá solicitar a leitura da digital novamente*/
+	12-colocar o dedo no leitor de digital
+	13-após a conclusão da leitura da digital, retirar o dedo do leitor
+	\*o caixa eletrônico irá exibir o valor do saldo da conta*/
+	14-se não tiver saldo disponível, ir para o passo 15
+		15-chora e vai embora pra casa, pedir dinheiro pra mãe
+		16-ir para o passo 31
+	17-se tiver saldo disponível, continuar no passo 18
+		18-na tela do saldo, apertar o botão voltar ou corrigir
+		\*o caixa eletrônico ira voltar para a tela de menu, mostrando as opções disponíveis*/
+		19-selecionar a opção saque
+		20-na tela do saque, digitar o valor que deseja sacar, respeitando o valor do saldo disponível \*saque <= saldo disponível*/
+		21-apertar o botão confirmar
+		\*o caixa eletrônico irá solicitar que insira o cartão novamente e retire logo em seguida*/
+		22-inserir o cartão no caixa eletrônico
+		23-logo em seguida retirar o cartão do caixa eletrônico
+		\*o caixa eletrônico irá começar a contagem das cédulas de dinheiro*/
+		24-logo após a contagem das cédulas de dinheiro, o caixa eletrônico irá despejar o dinheiro
+		25-pegar o dinheiro da saída do caixa eletrônico
+		26-conferir se a quantia está correta
+		27-guardar o dinheiro na carteira
+		28-guardar o cartão na carteira
+		29-guardar a carteira
+		30-sair do banco e ir embora
+31-fim
