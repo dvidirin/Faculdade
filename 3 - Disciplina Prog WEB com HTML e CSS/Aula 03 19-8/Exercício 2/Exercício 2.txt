@@ -1,0 +1,2 @@
+Criar uma página ou site com o seu curriculum pessoal.
+Utilize os recursos apresentados na aula de hoje(Lista numerada/Não numerada, cores de fontes, cores de fundo, div, linhas de separação, imagens) além dos recursos vistos na aula anterior(link's, cabeçalho, parágrafos etc...).

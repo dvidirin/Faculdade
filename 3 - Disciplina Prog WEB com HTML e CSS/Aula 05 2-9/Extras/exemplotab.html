@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemplo Tabela</title>
+    </head>
+    <body>
+          <!-- Cabeçalho -->
+          <h1> Exemplo de Criação de Tabelas em Html<h1>
+
+          <!-- Criando Tabela -->
+          <!--cellpadding: Distância entre a “borda” da célula até o seu conteúdo-->
+          <!--cellspacing: Distância entre as células da tabela-->
+          <!--Rowspan e colspan servem para expandir as células fazendo com que uma única célula ocupe mais de uma linha ou mais de uma coluna.-->
+          <table cellpadding="4" cellspacing="10" width="50%" border=1>
+            <tr> <!-- Criando linha -->
+              <th colspan="2" bgcolor="yellow"> <!-- Criando coluna de título -->
+                  <font face="Arial" color="blue">Cabeçalho</font>
+              </th>
+            </tr>
+            <tr><!-- Criando nova linha -->
+                <td bgcolor="blue">
+                    <font face="times new roman" color="red">Coluna 1</font>
+                </td>
+                <td bgcolor="red">
+                    <font face="Courier" color="yellow">Coluna 2</font>
+                </td>
+            </tr>
+            <tr><!-- Criando nova linha -->
+                <td align= center colspan ="2"> celula de 2 colunas </td>
+            </tr>
+            <tr>
+              <td bgcolor="magenda" rowspan ="2"> celula de 2 linhas </td>
+              <td bgcolor="orange"> celula 2B </td>
+            </tr>
+            <tr>
+              <td bgcolor="pink"> celula x </td>
+            </tr>
+          </table>
+    </body>
+</html>

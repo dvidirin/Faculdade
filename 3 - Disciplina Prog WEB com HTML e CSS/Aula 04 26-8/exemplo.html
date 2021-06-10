@@ -1,0 +1,179 @@
+<HTML>
+
+<HEAD>
+<meta charset="UTF-8">
+<TITLE>Criando Tabelas</TITLE>
+
+</HEAD>
+
+<BODY>
+
+<CENTER><FONT COLOR=BLUE SIZE=6>TABELA</FONT></CENTER>
+
+<BR>
+
+<TABLE BORDER=1> <! Inicia a tabela e coloca uma borda de espessura igual a 1>
+
+<TR> <! Cria a primeira linha da tabela>
+
+<TD>PRIMEIRA COLUNA </TD> <! Aqui foi criada uma célula>
+
+<TD>SEGUNDA COLUNA </TD>
+
+<TD>TERCEIRA COLUNA </TD>
+
+</TR> <! Fecha a primeira linha da tabela>
+
+<TR> <! Abre a segunda linha da tabela>
+
+<TD> PRIMEIRA COLUNA</TD>
+
+<TD>SEGUNDA COLUNA </TD>
+
+<TD>TERCEIRA COLUNA </TD>
+
+<TR> <! Encerra a Segunda linha da tabela>
+
+</TABLE> <! Encerra a tabela>
+
+<br><br><br>
+<p>Para alterar o largura de uma célula da tabela basta acrescentar o parâmetro WIDTH dentro da tag <TD</p>
+<br><br><br>
+<TABLE BORDER=2>
+
+<TR>
+
+<TD WIDTH=100> WIDTH=100</TD>
+
+<TD ALIGN=MIDDLE WIDTH=200>WIDTH=200 (PIXELS)</TD>
+
+</TR>
+
+</TABLE>
+<br><br><br>
+<p>O parâmetro WIDTH pode receber dois tipos de valores, em pixels como no exemplo acima ou em porcentagem, como mostrado no exemplo a seguir. Também dentro da tag <TD> vemos um outro parâmetro que é VALIGN=MIDDLE, este parâmetro tem por função alinhar o conteúdo da célula no meio da mesma, ou seja, dentro da célula as frases são alinhadas com relação ao seu centro. Exemplo2:
+<br><br><br>
+<TABLE BORDER=2></p>
+<TABLE BORDER=2>
+
+<TR>
+
+<TD WIDTH=25%> WIDTH=25%</TD>
+
+<TD ALIGN=MIDDLE WIDTH=75%>WIDTH=75%</TD>
+
+</TR>
+</table>
+<br><br><br>
+<p> cor das céluals<TD</p>
+<br><br><br>
+<TABLE BORDER=0>
+
+<TR>
+
+<TD WIDTH=150 BGCOLOR=RED>VERMELHO </TD>
+
+<TD WIDTH=150 BGCOLOR=BLUE>AZUL </TD>
+
+<TD WIDTH=150 BGCOLOR=RED>VEMELHO</TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH=150 BGCOLOR=BLUE>AZUL</TD>
+
+<TD WIDTH=150 BGCOLOR=RED>VEMELHO</TD>
+
+<TD WIDTH=150 BGCOLOR=BLUE> AZUL</TD>
+
+</TR>
+
+</TABLE>
+<br><br><br>
+<TABLE BORDER=0 CELLSPACING=0>
+
+<TR>
+
+<TD WIDTH=150 BGCOLOR=RED>VERMELHO </TD>
+
+<TD WIDTH=150 BGCOLOR=BLUE>AZUL </TD>
+
+<TD WIDTH=150 BGCOLOR=RED>VEMELHO</TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH=150 BGCOLOR=BLUE>AZUL</TD>
+
+<TD WIDTH=150 BGCOLOR=RED>VEMELHO</TD>
+
+<TD WIDTH=150 BGCOLOR=BLUE> AZUL</TD>
+
+</TR>
+
+</TABLE>
+
+<br><br><br>
+
+<TABLE BORDER=1 CELLSPACING=2 CELLPADDING=6> <! Esta linha inicia a tabela com borda de espessura 1 (border), espaço entre as células 2 (Cellspacing) e espaço dentro da célula 6 (Cellpadding)>
+
+<CAPTION>LEGENDA</CAPTION> <! Introduz uma legenda na tabela>
+
+<TR>
+
+<TH>Conteúdo em negrito</TH> <! Insere o texto na forma de cabeçalho (negrito)>
+
+</TR>
+
+<TR>
+
+<TH>Conteúdo em negrito</TH>
+
+</TR>
+
+</TABLE>
+<br><br><br>
+
+<TABLE BORDER=2 CELLPADDING=2>
+
+<TR>
+
+<TD COLSPAN=2>Exemplo do uso do COLSPAN</TD>
+
+<TR>
+
+<TD>CÉLULA 1</TD> <TD>CÉLULA 2</TD>
+
+</TR>
+
+</TABLE>
+
+<br><br><br>
+
+<TABLE BORDER=2 CELLPADDING=2>
+
+<TR>
+
+<TD ROWSPAN=2>Exemplo do uso do ROWSPAN</TD>
+
+<TD>CÉLULA 1</TD></TR><TR> <TD>CÉLULA 2</TD>
+
+</TR>
+
+</TABLE>
+<br><br><br>
+<TABLE BORDER=5>
+
+<TR>
+
+<TD> <IMG SRC=logo-fho.png> </TD>
+
+</TR>
+
+</TABLE>
+
+</BODY>
+
+</HTML>
