@@ -1,0 +1,10 @@
+Area: 45 - Perimetro: 28
+Area: 24 - Perimetro: 22
+Area: 51 - Perimetro: 40
+Area: 72 - Perimetro: 36
+Area: 64 - Perimetro: 32
+Area: 34000 - Perimetro: 740
+Area: 8 - Perimetro: 12
+Area: 21 - Perimetro: 20
+Area: 21 - Perimetro: 20
+Area: 25 - Perimetro: 20
